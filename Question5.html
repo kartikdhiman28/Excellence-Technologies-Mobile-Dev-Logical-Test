@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h2>Question 5</h2>
+
+    <p>Write a code to sort the object by id</p>
+    <p id="demo"></p>
+    <script>
+      //   var maxSpeed = {
+      //     car: 300,
+      //     bike: 60,
+      //     motorbike: 200,
+      //     airplane: 1000,
+      //     helicopter: 400,
+      //     rocket: 8 * 60 * 60,
+      //   };
+      const obj = [
+        { id: 4, name: "abc" },
+
+        { id: 10, name: "ab2" },
+
+        { id: 5, name: "abc3" },
+
+        { id: 6, name: "abc5" },
+      ];
+      //Check output in console
+      obj.sort((a, b) => (a.id > b.id ? 1 : -1));
+
+      console.log(obj);
+
+      //   for (var vehicle in maxSpeed) {
+      //     sortable.push([vehicle, maxSpeed[vehicle]]);
+      //   }
+
+      //   sortable.sort(function (a, b) {
+      //     return a[1] - b[1];
+      //   });
+      //   document.writeln(sortable);
+    </script>
+  </body>
+</html>
